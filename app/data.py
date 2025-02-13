@@ -16,6 +16,31 @@ def display_dataframe():
     # Load the data into a pandas dataframe
     try:
         df = pd.read_csv(data_path)
+        # Rename columns from Turkish to English
+        df.rename(columns={
+            'Hasta_ID': 'Patient_ID',
+            'Yaş': 'Age',
+            'Cinsiyet': 'Gender',
+            'Eğitim_Seviyesi': 'Education',
+            'Medeni_Durum': 'Marital_Status',
+            'Meslek': 'Occupation',
+            'Gelir_Düzeyi': 'Income',
+            'Yaşadığı_Yer': 'Live_Area',
+            'Tanı': 'Diagnosis',
+            'Hastalık_Süresi': 'Disease_Duration',
+            'Hastaneye_Yatış_Sayısı': 'Hospitalizations',
+            'Ailede_Şizofreni_Öyküsü': 'Family_History',
+            'Madde_Kullanımı': 'Substance_Use',
+            'İntihar_Girişimi': 'Suicide_Attempt',
+            'Pozitif_Semptom_Skoru': 'Positive_Symptom_Score',
+            'Negatif_Semptom_Skoru': 'Negative_Symptom_Score',
+            'GAF_Skoru': 'GAF',
+            'Sosyal_Destek': 'Social_Support',
+            'Stres_Faktörleri': 'Stress_Factors',
+            'İlaç_Uyumu': 'Medication_Adherence'
+        }, inplace=True)
+        # Drop the Patient_ID column
+        df.drop(columns=['Patient_ID'], inplace=True)
     except Exception as e:
         return f"Error loading CSV file: {e}"
 

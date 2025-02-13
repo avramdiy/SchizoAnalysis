@@ -12,6 +12,8 @@
 
 - All columns are in Turkish. Need to replace with English and clean.
 
+- Drop "Patient_ID" and evaluate which visualizations or predictions I could make.
+
 ### 3rd Commit
 
 ### 4th Commit
