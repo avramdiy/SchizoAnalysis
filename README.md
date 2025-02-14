@@ -28,4 +28,14 @@
 
 ### 4th Commit
 
+- Gender : 0 = Female, 1 = Male
+
+- Suicide_Attempt : 0: No, 1: Yes
+
+- Diagnosis : 0: Not schizophrenic, 1: Schizophrenic
+
+- Create a route for a grouped bar chart measuring the "Gender" "Suicide_Attempt" "Diagnosis" 
+
+- ('suicide-chart')
+
 ### 5th Commit
