@@ -24,7 +24,7 @@
 
 - Create a route for a grouped bar chart measuring the "Gender" "Education" "Diagnosis" 
 
-- ('group_bar_chart')
+- ('/group_bar_chart')
 
 ### 4th Commit
 
@@ -36,6 +36,16 @@
 
 - Create a route for a grouped bar chart measuring the "Gender" "Suicide_Attempt" "Diagnosis" 
 
-- ('suicide-chart')
+- ('/suicide-chart')
 
 ### 5th Commit
+
+- Gender : 0 = Female, 1 = Male
+
+- Social_Support : 0: Low, 1: Medium, 2: High
+
+- Diagnosis : 0: Not schizophrenic, 1: Schizophrenic
+
+- Create a route for a grouped bar chart measuring the "Gender" "Social_Support" "Diagnosis"
+
+- ('/social_support_chart')
