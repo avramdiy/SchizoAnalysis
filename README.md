@@ -16,6 +16,16 @@
 
 ### 3rd Commit
 
+- Gender : 0 = Female, 1 = Male
+
+- Education : 1: Primary, 2: Middle School, 3: High School, 4: University, 5: Postgraduate
+
+- Diagnosis : 0: Not schizophrenic, 1: Schizophrenic
+
+- Create a route for a grouped bar chart measuring the "Gender" "Education" "Diagnosis" 
+
+- ('group_bar_chart')
+
 ### 4th Commit
 
 ### 5th Commit
